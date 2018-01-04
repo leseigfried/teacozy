@@ -1,0 +1,215 @@
+/*--Universal Styles--*/
+
+body {
+  font-family: "Helvetica", sans-serif;
+  font-size: 22px;
+  background-color: black;
+  color: #FFF5EE;
+  align-text: center;
+}
+
+a {
+  color: SeaShell;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/*--Header Styles--*/
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  height: 69px;
+  width: 100%;
+  background-color: black;
+  border-bottom: 1px solid #FFF5EE;
+  font-family: "Helvetica", sans-serif;
+  font-size: 22px;
+  color: SeaShell;
+}
+
+nav span {
+  display: inline-block;
+  text-decoration: underline;
+  padding: 20px 10px;
+}
+
+/*--Logo Styles--*/
+.logo {
+  display: flex;
+  flex-grow: 1;
+  padding-left: 10px;
+  align-items: center;
+}
+.logo img {
+  height: 50px;
+  opacity:0.9;
+}
+
+/*--Main Container--*/
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1280px;
+  height: auto;
+  margin: 0 auto;
+}
+
+/*--Our Mission Section--*/
+.mission {
+  height: 700px;
+  width: 1200px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-size: cover;
+  align-items: center;
+}
+
+.mission .content {
+  display: inline-block;
+  height: 150px;
+  width: 1200px;
+  background-color: black;
+  margin-top: 250px;
+}
+
+.mission h2, h4 {
+  text-align: center;
+}
+
+/*--Tea of the Month Section--*/
+
+.tea {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 1000px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.fallblitz {
+  height: 300px;
+  width: 300px;
+  padding: 10px;
+  order: 1;
+}
+
+.spicedrum {
+  height: 300px;
+  width: 300px;
+  padding: 10px;
+  order: 1;
+}
+
+.donuts {
+  height: 300px;
+  width: 300px;
+  padding: 10px;
+  order: 1;
+}
+
+.myrtle {
+  height: 300px;
+  width: 300px;
+  padding: 10px;
+  order: 2;
+}
+
+.bedford {
+  height: 300px;
+  width: 300px;
+  padding: 10px;
+  order: 2;
+}
+
+.tea img {
+  height: 200px;
+  width: 300px;
+}
+
+.tea p {
+  text-align: center;
+}
+
+/*--Locations Section--*/
+
+.locations {
+  display: flex;
+  flex-flow: wrap-reverse;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-size: cover;
+  justify-content: center;
+  width: 1200px;
+  height: 500px;
+}
+
+.locations h2 {
+  display: inline-block;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 0 0 15px 0;
+  order: 2;
+}
+
+.locations p, h3 {
+  text-align: center;
+  line-height: 40px;
+}
+
+.locations .downtown {
+  opacity: 1;
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  margin: 50px 40px 100px 0;
+  order: 1;
+}
+
+.locations .bayside {
+  opacity: 1;
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  margin: 50px 0 100px 0;
+  order:1;
+}
+
+.locations .oakdale {
+  opacity: 1;
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  margin: 50px 0px 100px 40px;
+  order: 1;
+}
+/*--Footer Section--*/
+footer {
+  display: flex;
+  align-content: flex-start;
+  font-family: "Helvetica", sans-serif;
+  font-size: 14px;
+  color: #FFF5EE;
+  font-weight: bold;
+  padding: 20px 0 40px 0;
+  margin-top: 40px;
+}
